@@ -19,6 +19,24 @@ run: ng serve --open
    a.2)property binding - [attribute_name]="property"
  b)view to componet
    b.1)Event binding - (event_name)="function name"
-   b.2)Event binding using $event -(event_name)="function name($event)"  
+   b.2)Event binding using $event -(event_name)="function name($event)"
+   b.3)Event binding using template reference variabe - #variable_name 
+
+
+ 1.2) Two way data binding
+ Data share in both direction(ts-> html)and (html->ts)
+ ngmodel (library) - import from formsModule
+
+
+
+ 3) Dependency injection
+ To share data btwn 2 component
+ eg:login to dashboard
+
+
+ 4) Angular services
+ To hold reduntant data
+
+
 
 

@@ -7,12 +7,12 @@
             <img src="../../assets/logo.png" style="height:2cm; display: flex; align-items: center;" class="" alt="">
            
             <h1 class="text-secondary mt-3">My Bank</h1>
-            <p>{{aim}}</p>
+            <p>{{aim}}</p>   
             
-            <input  (change)="acnoChange($event)" type="text" id="login_acno" [placeholder]="account" class="form-control mt-3 shadow-lg">
-            <input (change)="pswdChange($event)" type="text" id="login_pswd" placeholder="Password" class="form-control mt-2 shadow-lg">
+            <input  [(ngModel)]="acno" type="text" name="acno" id="login_acno" [placeholder]="account" class="form-control mt-3 shadow-lg">
+            <input [(ngModel)]="pswd" type="text" name="pswd" id="login_pswd" placeholder="Password" class="form-control mt-2 shadow-lg">
             <input type="button" value="login" (click)="login()" class="btn btn-primary  mt-3 "><br>
-            <a href="#" class="text-decoration-none">forget Password</a> or <a href="./signup.html" class="text-decoration-none">Sign up</a>
+            <a href="#" class="text-decoration-none">forget Password</a> or <a routerLink="signup" class="text-decoration-none">Sign up</a>
         <!-- </center> -->
         </form>
 

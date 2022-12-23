@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+.child{
+    display: inline-block;
+   
+
+    
+    align-items: center;
+    
+}
+.col-4{
+    width: 200px;
+    
+}

@@ -1,0 +1,45 @@
+<p>welcome home page :)   <3</p>
+<div class="parent">
+    <div class="child"><div class="row">
+        <div class="col-4"></div>
+        <div class="col-4 bg-light mt-5 shadow-lg p-3 mb-5 bg-body rounded ">
+            <form action="" class="">
+                
+                <img src="../../assets/logo.png" style="height:2cm; align-items: center;" class="" alt="">
+               
+                <h1 class="text-secondary mt-3">My Bank </h1>
+                
+                <input type="text" [(ngModel)]="acno" name="acno" id="depo_acno" placeholder="Account number" class="form-control mt-3 shadow-lg">
+                <input type="text" [(ngModel)]="pswd" name="pswd" id="depo_pswd" placeholder="Password" class="form-control mt-2 shadow-lg">
+                <input type="text" [(ngModel)]="amount" name="deposit" id="depo_amount" placeholder="deposit" class="form-control mt-2 shadow-lg">
+                <input type="button" value="deposit" (click)="deposit()" class="btn btn-primary  mt-3"><br>
+                <a href="./index.html"class="mt-3 text-decoration-none">Sign Up</a>
+            
+            </form>
+            
+        </div>
+        <div class="col-4"></div>
+    </div>
+    </div>
+    <div class="child"><div class="row">
+        <div class="col-4"></div>
+        <div class="col-4 bg-light mt-5 shadow-lg p-3 mb-5 bg-body rounded ">
+            <form action="" class="">
+                
+                <img src="../../assets/logo.png" style="height:2cm; align-items: center;" class="" alt="">
+               
+                <h1 class="text-secondary mt-3">My Bank</h1>
+                
+                <input type="text" [(ngModel)]="acno" name="acno" id="wtdr_acno" placeholder="Account number" class="form-control mt-3 shadow-lg">
+                <input type="text" [(ngModel)]="pswd" name="pswd" id="wtdr_pswd" placeholder="Password" class="form-control mt-2 shadow-lg">
+                <input type="text" [(ngModel)]="amount" name="deposit" id="wtdr_amount" placeholder="deposit" class="form-control mt-2 shadow-lg">
+                <input type="button" value="withdraw" (click)="withdraw()" class="btn btn-primary  mt-3"><br>
+                <a href="./index.html"class="mt-3 text-decoration-none">Sign Up</a>
+            
+            </form>
+            
+        </div>
+        <div class="col-4"></div>
+    </div></div>
+</div>
+
